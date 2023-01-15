@@ -35,7 +35,7 @@ const Portfolio = () => {
                   <h1 style={{ color: "#fff" }}>I am Mfonabasi Thompson</h1>
                   <br />
                   <h3>
-                    Junior Front End Developer{"  "}
+                    Front End Developer{"  "}
                     <span className="tinytext">. 3+ years Experience</span>
                   </h3>
                   <br />
