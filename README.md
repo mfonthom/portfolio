@@ -1,7 +1,7 @@
-# About this Project
+# Portfolio Summary
 
-This project is about my Portfolio, It contains a rundown summary of my journey so far as a developer.
-My name is Mfonabasi Thompson. I am a Frontend developer with 3+ years experience, specilaized in React Framework. I look forward to working with you
+This is my Portfolio, It contains a rundown summary of my journey so far as a developer. <br/>
+My name is <b>Mfonabasi Thompson</b>. I am a Frontend developer with 3+ years experience, specilaized in React Framework. I look forward to working with you
 
 ## Available Scripts
 
