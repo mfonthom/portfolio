@@ -1,38 +1,156 @@
-.App {
-  text-align: center;
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.main {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  background: #121316;
+  padding: 100px 0;
+}
+.container {
+  width: 85%;
+  margin: auto;
+}
+.bgtext {
+  margin-top: 50px;
+  text-align: center;
+  font-size: 95px;
+  text-transform: uppercase;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 0.6px #ff9d00;
+  opacity: 0.5;
+  position: absolute;
+  overflow: hidden;
+}
+
+.dp {
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+  border: 10px solid #27292d;
+  background: #c3c2c2;
+  height: 200px;
+  width: 200px;
+  position: relative;
+  margin-bottom: 70px;
+  margin-top: 150px;
+}
+.header {
+  margin-top: 40px;
+  display: flex;
+}
+.headerRight {
+  flex: 30%;
+  display: flex;
+  justify-content: right;
+  column-gap: 30px;
+}
+.headerLeft {
+  flex: 70%;
+}
+.iconbg {
+  border-radius: 50px;
+  height: 60px;
+  width: 60px;
+  background-color: #27292d;
+  color: #fff;
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  cursor: pointer;
+}
+a {
+  text-decoration: none;
+  color: inherit;
 }
 
-.App-link {
-  color: #61dafb;
+h1 {
+  color: #fff;
+  font-size: 40px;
+  margin: 5px 0;
+}
+h3 {
+  color: #ececec;
+  margin: 5px 0;
+}
+.tinytext {
+  color: #5a5a5a;
+  font-size: 14px;
+}
+.paragraph {
+  color: #c3c2c2;
+}
+.works {
+  padding-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  row-gap: 50px;
+  flex-wrap: wrap;
+}
+.cardwrapper {
+  width: 48.5%;
+}
+.card {
+  border-radius: 20px;
+  width: 100%;
+  height: 378px;
+  background: #27292d;
+  padding: 20px;
+  position: relative;
+  margin-bottom: 20px;
+}
+.cardbase {
+  position: absolute;
+  display: flex;
+  right: 30px;
+  bottom: 30px;
+}
+.btn {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 600;
+  color: #000;
+  background: #fff;
+  border-radius: 10px;
+  padding: 15px 15px;
+}
+.hobby {
+  background: #191a1d;
+  text-align: center;
+  padding: 100px 0;
+}
+.footer {
+  background: #121316;
+  padding: 100px 0;
+  color: #fff;
+  display: flex;
+  justify-content: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media screen and (max-width: 768px) {
+  .bgtext {
+    font-size: 55px;
   }
-  to {
-    transform: rotate(360deg);
+  .header {
+    flex-direction: column-reverse;
+    align-items: center;
+    margin-top: 28px;
+  }
+  .works {
+    flex-direction: column;
+  }
+  .cardwrapper {
+    /* display: flex; */
+    width: 98.5%;
+  }
+}
+@media screen and (max-width: 425px) {
+  .bgtext {
+    margin-top: 35px;
+    font-size: 40px;
+  }
+  .footer > div > h1 {
+    font-size: 35px;
   }
 }
