@@ -210,6 +210,7 @@ const Portfolio = () => {
         <section className="footer">
           <div>
             <h1 className="">Let's Work Together </h1>
+            <span className="tinytext">thompsonmfonabasi@gmail.com</span>
           </div>
         </section>
       </div>
