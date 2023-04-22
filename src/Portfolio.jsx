@@ -36,7 +36,7 @@ const Portfolio = () => {
                   <br />
                   <h3>
                     Front End Developer{"  "}
-                    <span className="tinytext">. 3+ years Experience</span>
+                    <span className="tinytext">. 5 years Experience</span>
                   </h3>
                   <br />
                   <p className="paragraph">
