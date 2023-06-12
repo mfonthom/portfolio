@@ -36,7 +36,7 @@ const Portfolio = () => {
                   <br />
                   <h3>
                     Front End Developer{"  "}
-                    <span className="tinytext">. 5 years Experience</span>
+                    <span className="tinytext">. 2 years Experience</span>
                   </h3>
                   <br />
                   <p className="paragraph">
@@ -49,6 +49,7 @@ const Portfolio = () => {
                     with my community from my social media.{" "}
                   </p>
                 </div>
+
                 <div className="headerRight">
                   <div className="iconbg">
                     <a href="https://github.com/mfonthom">
@@ -59,6 +60,7 @@ const Portfolio = () => {
                       />
                     </a>
                   </div>
+
                   <div className="iconbg">
                     <a href="https://www.linkedin.com/in/mfonabasi-thompson-b81b41b5/">
                       {" "}
@@ -69,6 +71,7 @@ const Portfolio = () => {
                       />
                     </a>
                   </div>
+
                   <div className="iconbg">
                     <a href="https://twitter.com/fahviee">
                       <FontAwesomeIcon
@@ -126,7 +129,7 @@ const Portfolio = () => {
                   >
                     <div className="cardbase">
                       <button className="btn">
-                        View Website{" "}
+                        <a href="https://owosh.com/">View Website </a>
                         <FontAwesomeIcon
                           icon={faExternalLinkAlt}
                           size="1x"
