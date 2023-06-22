@@ -9,6 +9,7 @@ import {
 import Owosh from "./assets/owosh-thumbnail.jpg";
 import Protrack from "./assets/protrack-thumbnail.jpg";
 import Nwaeze from "./assets/nwaeze.png";
+import NerdyEye from "./assets/nerdyEye.png";
 import Dp from "./assets/mypic.jpeg";
 
 const Portfolio = () => {
@@ -36,7 +37,7 @@ const Portfolio = () => {
                   <br />
                   <h3>
                     Front End Developer{"  "}
-                    <span className="tinytext">. 2 years Experience</span>
+                    <span className="tinytext">. 5 years Experience</span>
                   </h3>
                   <br />
                   <p className="paragraph">
@@ -89,35 +90,35 @@ const Portfolio = () => {
                   <div
                     className="card"
                     style={{
-                      backgroundImage: `url(${Protrack})`,
+                      backgroundImage: `url(${NerdyEye})`,
                       backgroundPosition: "center",
                       backgroundSize: "cover",
                     }}
                   >
                     <div className="cardbase">
                       <button className="btn">
-                        <a href="https://protrack-eight.vercel.app/">
-                          View Website{" "}
-                        </a>{" "}
+                        <a href="https://nerdyeye.com/">View Website </a>
                         <FontAwesomeIcon
                           icon={faExternalLinkAlt}
                           size="1x"
                           style={{ background: "none" }}
-                        />{" "}
+                        />
                       </button>
                     </div>
                   </div>
-                  <span className="tinytext">- Productivity </span>
-                  <h3>ProTrack web Application</h3>
+                  <span className="tinytext">- Ed Tech</span>
+                  <h3>NerdyEye web Application</h3>
                   <p className="paragraph">
-                    This is a Productivity tracking web application. It can be
-                    used by Individuals, Teams and even Organizations to Track
-                    and Monitor productivity. The major frame work of the
-                    project is React JS, the styling system used here is Styled
+                    NerdyEye is an Ed-Tech web application, here users can
+                    create an account and subscribe to the platform to learn a
+                    tech skill and can also apply for jobs after they are done
+                    learning. The major frame work of the project is React Js
+                    and Node Js, the styling system used here is Styled
                     Components and the files were structured after the Atomic
                     Design File Structure format.
                   </p>
                 </div>
+
                 <div className="cardwrapper">
                   <div
                     className="card"
@@ -148,11 +149,20 @@ const Portfolio = () => {
                   </p>
                 </div>
 
-                {/* <div className="cardwrapper">
-                  <div className="card">
+                <div className="cardwrapper">
+                  <div
+                    className="card"
+                    style={{
+                      backgroundImage: `url(${Protrack})`,
+                      backgroundPosition: "center",
+                      backgroundSize: "cover",
+                    }}
+                  >
                     <div className="cardbase">
                       <button className="btn">
-                        View Case Study{" "}
+                        <a href="https://protrack-eight.vercel.app/">
+                          View Website{" "}
+                        </a>{" "}
                         <FontAwesomeIcon
                           icon={faExternalLinkAlt}
                           size="1x"
@@ -161,13 +171,17 @@ const Portfolio = () => {
                       </button>
                     </div>
                   </div>
-                  <span className="tinytext">- FIn Tech</span>
-                  <h3>Raba Fin Tech web Application</h3>
+                  <span className="tinytext">- Productivity </span>
+                  <h3>ProTrack web Application</h3>
                   <p className="paragraph">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Felis magnis donec vitae eu vel volutpat leo mauris.
+                    This is a Productivity tracking web application. It can be
+                    used by Individuals, Teams and even Organizations to Track
+                    and Monitor productivity. The major frame work of the
+                    project is React JS, the styling system used here is Styled
+                    Components and the files were structured after the Atomic
+                    Design File Structure format.
                   </p>
-                </div> */}
+                </div>
 
                 <div className="cardwrapper">
                   <div
