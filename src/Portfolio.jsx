@@ -109,13 +109,14 @@ const Portfolio = () => {
                   <span className="tinytext">- Ed Tech</span>
                   <h3>NerdyEye web Application</h3>
                   <p className="paragraph">
-                    NerdyEye is an Ed-Tech web application, here users can
-                    create an account and subscribe to the platform to learn a
-                    tech skill and can also apply for jobs after they are done
-                    learning. The major frame work of the project is React Js
-                    and Node Js, the styling system used here is Styled
-                    Components and the files were structured after the Atomic
-                    Design File Structure format.
+                    NerdyEye is a Community Ed-Tech web application, here users
+                    can create an account and subscribe to the platform to learn
+                    a tech skill, work on projects to build their portfolio and
+                    can also apply for jobs after they are done learning. The
+                    major frame work of the project is React Js and Node Js, the
+                    styling system used here is Styled Components and the files
+                    were structured after the Atomic Design File Structure
+                    format.
                   </p>
                 </div>
 
